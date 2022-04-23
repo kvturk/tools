@@ -1,0 +1,6 @@
+file receiving machine 
+Windows :C:\Users\Seven\Desktop\netcat>nc64.exe -lvp 5555 > outputFile.ps1
+
+file sending machine 
+Linux : nc -v 6.tcp.ngrok.io 18601 < inputFile.ps1
+
